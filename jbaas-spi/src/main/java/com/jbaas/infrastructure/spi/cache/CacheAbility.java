@@ -1,5 +1,6 @@
 package com.jbaas.infrastructure.spi.cache;
 
+import com.jbaas.infrastructure.spi.cache.domain.CacheResult;
 import com.jbaas.infrastructure.spi.cache.extension.Lock;
 
 import java.io.Serializable;

@@ -1,5 +1,7 @@
 package com.jbaas.infrastructure.spi.config;
 
+import com.jbaas.infrastructure.spi.config.domain.ConfigListener;
+
 import java.util.List;
 
 /**

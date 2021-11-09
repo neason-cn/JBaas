@@ -1,4 +1,4 @@
-package com.jbaas.infrastructure.spi.config;
+package com.jbaas.infrastructure.spi.config.domain;
 
 /**
  * Config Listener

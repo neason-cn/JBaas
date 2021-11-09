@@ -1,6 +1,6 @@
 package com.jbaas.infrastructure.spi.rpc;
 
-import com.jbaas.infrastructure.spi.rpc.domain.Service;
+import com.jbaas.infrastructure.spi.rpc.domain.RpcService;
 
 /**
  * RPC Ability Interface
@@ -10,8 +10,8 @@ import com.jbaas.infrastructure.spi.rpc.domain.Service;
  */
 public interface RpcAbility {
 
-    void publish(Service service);
+    void publish(RpcService service);
 
-    <T> T get(Service<T> service);
+    <T> T get(RpcService<T> service);
 
 }
