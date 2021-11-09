@@ -6,7 +6,11 @@
 
     <groupId>com.jbaas</groupId>
     <artifactId>jbaas-parent</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1</version>
+    <modules>
+        <module>jbaas-spi</module>
+    </modules>
 
     <name>{$project.artifactId}</name>
     <description>The parent project of JBaas</description>
